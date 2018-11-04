@@ -20,7 +20,7 @@
         </v-flex>
       </v-layout>
 
-      <v-carousel class="image-contain-carousel mb-3" hide-delimiters style="height: 39vw">
+      <v-carousel class="image-contain-carousel mb-3" hide-delimiters style="height: 38vw">
         <v-carousel-item
           style="background-size: contain"
           v-for="(item,i) in posters"
@@ -82,7 +82,7 @@
 <style>
 .image-contain-carousel .v-image__image {
   background-size: contain !important;
-  background-position: top left !important
+  background-position: top center !important
 }
 </style>
 
